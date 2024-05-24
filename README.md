@@ -4,7 +4,7 @@ L'ensemble des documents se présente ainsi :
 - une liste de prénoms masculins en CSV,
 - une extraction CSV issue de l'IR 1994 8 des ANMT, qui sert d'exemple.
 
-Le script est prévu pour fonctionner avec Ligeo Gestion, sur un export CSV "Notices (classer > recherche)" qui comprend les XPath suivants :
+Le script est prévu pour fonctionner avec Ligeo Gestion (il est adaptable à d'autres SIA), sur un export CSV "Notices (classer > recherche)" qui comprend les XPath suivants :
 - identifiant (par défaut dans Ligeo)
 - type_c (par défaut dans Ligeo)
 - formulaire (par défaut dans Ligeo)
@@ -19,3 +19,5 @@ Le script produira, à partir du fichier source, un nouveau fichier qui comporte
 - "à contrôler" : c'est le dernier cas possible. Il s'agit d'un prénom qui n'est pas dans les listes.
 
 Il est important, dans tous les cas, de procéder à un contrôle par échantillonage à l'oeil humain après production du nouveau fichier.
+
+Le fichier est ensuite réimportable sur Ligeo avec une configuration CSV export/réimport adaptée : XPaths similaires et ajout d'un nouvel XPath qui correspond à l'élément où devra se retrouver la nouvelle information.
