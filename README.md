@@ -1,3 +1,5 @@
+Le script nécessite l'installation de l'environnement Python : https://www.python.org/
+
 L'ensemble des documents se présente ainsi :
 - le script proprement dit (determiner_genre.py),
 - une liste de prénoms féminins en CSV,
@@ -21,3 +23,5 @@ Le script produira, à partir du fichier source, un nouveau fichier qui comporte
 Il est important, dans tous les cas, de procéder à un contrôle par échantillonage à l'oeil humain après production du nouveau fichier.
 
 Le fichier est ensuite réimportable sur Ligeo avec une configuration CSV export/réimport adaptée : XPaths similaires et ajout d'un nouvel XPath qui correspond à l'élément où devra se retrouver la nouvelle information.
+
+Exemple de données traitées par le script : https://recherche-anmt.culture.gouv.fr/archive/recherche/mineursfond/n:85
