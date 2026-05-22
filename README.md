@@ -25,3 +25,9 @@ Il est important, dans tous les cas, de procéder à un contrôle par échantill
 Le fichier est ensuite réimportable sur Ligeo avec une configuration CSV export/réimport adaptée : XPaths similaires et ajout d'un nouvel XPath qui correspond à l'élément où devra se retrouver la nouvelle information.
 
 Exemple de données traitées par le script : https://recherche-anmt.culture.gouv.fr/archive/recherche/mineursfond/n:85
+
+## License
+
+Licensed under the Apache License 2.0.
+
+Copyright (c) 2026 Archives nationales du monde du travail
